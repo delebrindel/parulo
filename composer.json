@@ -1,0 +1,15 @@
+{
+    "name": "tres0011/parulo",
+    "description": "A websocket for a small chat package",
+    "type": "project",
+    "require": {
+        "cboden/ratchet": "^0.4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristóbal Torres",
+            "email": "delebrindel@gmail.com"
+        }
+    ]
+}
