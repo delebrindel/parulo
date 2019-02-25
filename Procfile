@@ -1,1 +1,1 @@
-web: php chat-server.php -S 0.0.0.0
+web: heroku run php chat-server.php

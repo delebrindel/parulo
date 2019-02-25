@@ -3,7 +3,7 @@
 <title>WebSocket Test</title>
 <script language="javascript" type="text/javascript">
 
-var wsUri = "http://websockets.io/chat-client.php";
+var wsUri = "wss://parulo-app.herokuapp.com:8080";
 var output;
 var person;
 
@@ -66,13 +66,6 @@ function writeToScreen(message)
 }
 
 window.addEventListener("load", init, false);
-
-document.querySelector("#message").addEventListener("keyup", event => {
-  if(event.key !== "Enter") return; // Use `.key` instead.
-  document.querySelector("#sendMessage").click(); // Things you want to do.
-  event.preventDefault(); // No need to `return false;`.
-});
-
 </script>
 
 <h2>WebSocket Test</h2>
