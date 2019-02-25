@@ -3,7 +3,7 @@
 <title>WebSocket Test</title>
 <script language="javascript" type="text/javascript">
 
-var wsUri = "ws://localhost:8080";
+var wsUri = "http://websockets.io/chat-client.php";
 var output;
 var person;
 
