@@ -1,0 +1,1 @@
+web: bundle exec thin -R php chat-server.php
