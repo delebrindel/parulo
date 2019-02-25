@@ -1,1 +1,1 @@
-web: bundle exec thin -R php chat-server.php
+web: php chat-server.php -S 0.0.0.0:$PORT
