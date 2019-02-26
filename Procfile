@@ -1,1 +1,1 @@
-web: heroku run php chat-server.php
+web: php -S localhost:8080
