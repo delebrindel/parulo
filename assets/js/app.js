@@ -1,4 +1,4 @@
-var wsUri = "ws://192.168.100.3:8080";
+var wsUri = "ws://"+ip+":8080";
 var output;
 var person;
 

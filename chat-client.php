@@ -9,7 +9,7 @@
 
 <body>
     <div class="container">
-        <div id="app" class="section">
+        <div id="app">
             <h1 class="title">Parulo - Una prueba de chat</h1>
             <div class="columns is-desktop">
                 <div class="column is-one-third">
@@ -27,6 +27,9 @@
         </div>
     </div>
     </div>
+    <script>
+        var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>";
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
