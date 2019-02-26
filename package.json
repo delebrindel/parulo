@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/delebrindel/parulo.git"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "keywords": [
     "Chat",
     "Node",
