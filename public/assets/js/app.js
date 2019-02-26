@@ -5,7 +5,7 @@ var vm = new Vue({
         person: "",
         message: "",
         output: [],
-        websocket : io.connect('https://limitless-refuge-67226.herokuapp.com/', { 'forceNew': true })
+        websocket : io.connect('https://parulo-app.herokuapp.com/', { 'forceNew': true })
     },
     mounted: function () {
         this.person = prompt("Por favor ingresa tu nombre", "User");
