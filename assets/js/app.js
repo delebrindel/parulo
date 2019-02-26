@@ -1,3 +1,4 @@
+//var ip="parulo-app.herokuapp.com/";
 var wsUri = "ws://"+ip+":8080";
 var output;
 var person;
