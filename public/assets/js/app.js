@@ -1,4 +1,4 @@
-var port = process.env.PORT || 8080;
+var port = 80;
 var vm = new Vue({
     el: '#app',
     data: {
