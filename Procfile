@@ -1,1 +1,1 @@
-web: php -q chat-server.php
+web: node server/main.js
