@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parulo - Un cliente de chat con node</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div class="container">
+      <div id="app">
+          <h1 class="title">Parulo - Una prueba de chat</h1>
+          <div class="columns is-desktop">
+              <div class="column is-one-third">
+                  <div class="field">
+                      <div class="control">
+                          <input type="text" class="input is-info" v-model="message" @keyup.enter="doSend"
+                              placeholder="Mensaje a enviar">
+                      </div>
+                  </div>
+              </div>
+              <div id="chat" class="column is-two-thirds">
+                  <div v-for="(item, index) in output" :key="index" :class="item.type">
+                    <span v-text="item.author" class="has-text-weight-bold"></span> : <span v-text="item.message"></span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

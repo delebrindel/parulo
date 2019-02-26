@@ -1,0 +1,29 @@
+{
+  "name": "parulo",
+  "version": "0.0.1",
+  "description": "Un cliente y websocket de Chat",
+  "main": "chat-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delebrindel/parulo.git"
+  },
+  "keywords": [
+    "Chat",
+    "Node",
+    "Socket"
+  ],
+  "author": "Delebrindel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delebrindel/parulo/issues"
+  },
+  "homepage": "https://github.com/delebrindel/parulo#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {}
+}
