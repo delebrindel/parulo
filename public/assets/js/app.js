@@ -1,10 +1,11 @@
+var port = process.env.PORT || 8080;
 var vm = new Vue({
     el: '#app',
     data: {
         person: "",
         message: "",
         output: [],
-        websocket : io.connect('http://localhost:8080', { 'forceNew': true })
+        websocket : io.connect('http://localhost:'+port, { 'forceNew': true })
     },
     mounted: function () {
         this.person = prompt("Por favor ingresa tu nombre", "User");
