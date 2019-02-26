@@ -7,6 +7,10 @@
 .r-in{
     color: #228;
 }
+.r-sys{
+    color: #fff;
+    font-weight: bold;
+}
 #chat{
     font-size: 2em;
 }
