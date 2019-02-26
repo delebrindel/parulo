@@ -1,0 +1,12 @@
+.r-out{
+    color: #282;
+}
+.r-er{
+    color: #822;
+}
+.r-in{
+    color: #228;
+}
+#chat{
+    font-size: 2em;
+}
