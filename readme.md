@@ -4,4 +4,4 @@ Una aplicación de chat desarrollada con [NodeJS](https://nodejs.org/es/) y [Soc
 
 Se puede visitar en: 
 
-[https://parulo-app.herokuapp.com/](https://parulo-app.herokuapp.com/)
+[https://parulo.herokuapp.com/](https://parulo.herokuapp.com/)
