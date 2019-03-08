@@ -1,14 +1,15 @@
 var express = require('express');
 var app = express();
-var server = require('http').Server(app);
+const path = require('path');
+var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var port = process.env.PORT || 8080;
 var messages = [];
 
 app.use(express.static('./public'));
 
-app.get('/hello', function(req, res) {
-  res.status(200).send("Hello World!");
+app.get('/listener', function(req, res) {
+  res.status(200).sendFile("./listener.html",{ root: path.resolve(__dirname, '../public') });
 });
 
 io.on('connection', function(socket) {
